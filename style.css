@@ -1,0 +1,259 @@
+/*to overfit the body to the scroll bar*/
+body
+{
+ overflow-y: overlay;
+ overflow-x: hidden; 
+ 
+}
+
+#div1
+{
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 200%;
+}
+#navb
+{
+  background-color:black ;
+   opacity:0.95;
+
+}
+#navb:hover
+{
+  background-image: url("https://www.vamosrayos.com/b/2020/01/cool-hd-3d-soccer-for-desktop-background-wallpaper-download-908x568.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: 0.95;
+  
+}
+.parallax  /*for the home background image*/
+{
+    background-image: url("https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    /* Set a specific height */
+    min-height : 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.95;
+  
+  }
+
+  #middle/*For the the body of my profile*/
+  {
+  background-image: url('https://images.wallpapersden.com/image/download/binary-numbers-raining_a2xmbWaUmZqaraWkpJRmbmdlrWZlbWU.jpg') ;
+  background-attachment: fixed;
+   background-repeat:no-repeat;
+   background-size: cover;
+   background-position: center;
+   min-height:1000 px;
+ }
+ 
+
+  #intro  /*for the introductory line */
+  {
+    text-align: center;
+    color: white;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow:   0px -6px 0 #212121,  
+                 0px -6px 0 #212121,
+                 0px  6px 0 #212121,
+                 0px  6px 0 #212121,
+                -6px  0px 0 #212121,  
+                 6px  0px 0 #212121,
+                -6px  0px 0 #212121,
+                 6px  0px 0 #212121,
+                -6px -3px 0 #212121,  
+                 6px -3px 0 #212121,
+                -6px  3px 0 #212121,
+                 6px  3px 0 #212121,
+                -6px  3px 0 #212121,
+                 0px  3px 0 #212121,
+                 6px  3px 0 #212121,
+                 0 2px 2px rgba(0,0,0,.1),
+                 0 2px 2px rgba(0,0,0,.1),
+                 0 2px 2px rgba(0,0,0,.3),
+                 0 2px 2px rgba(0,0,0,.2);
+                
+    font-family: 'Merriweather', serif;
+    padding: 20% 10% 20% 10%;
+    font-size: 180% ;
+    }
+ .space /*for the i*/
+  {
+    color: white;
+    border: 1px  solid rgba(255,255,255,0.1);
+    border-radius: 10px 10px;
+    background-color: rgba(0,0,0,0.6);
+    margin:10% 5%;
+    padding:5%;
+    font-family: 'Merriweather', serif;
+    line-height:200%;
+   
+  } 
+  /*For Achievements and Skills heading*/
+  .heading
+  {
+   font-size:120%;
+   color: ivory; 
+   border-radius: 5px 5px; 
+   padding:3%;
+   background-image: linear-gradient(to bottom, rgba(180, 21, 55, 0.8), rgba(255, 0, 55, 0.25));
+  }
+ #skill-image
+ {
+  padding:3%;
+  height:40%;
+  width:100%;
+  border-radius: 5px 5px;
+  text-align: center;
+ }
+ #about
+ {
+   margin:5% 5%;
+ }
+ #about-heading
+ {
+  padding: 1.5%;
+
+ }
+  div.heading:hover
+  {
+   background-color: rgba(255, 0, 55, 0.781);
+    font-size: 125%;
+  }
+  #contact
+{  
+ 
+    padding: 1% 1%;
+    height:40%;
+    color:white;
+    font-family:'Crimson Text', serif;
+    font-size: 4vh;
+  }
+  #footer
+{
+  background-color: black;
+ height: 150px;
+
+}
+#foot
+{
+ font-size: 30px;
+ letter-spacing: 20px;
+ padding:1% 1%;
+ color:white;
+ height:60%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color:white;
+  font-size: 120%;
+  text-decoration:none;
+}
+
+/* Facebook */
+
+.fa-envelope {
+  background: black;
+  color: white;
+}
+
+.fa-twitter {
+  background: black;
+  color: white;
+}
+.fa-github {
+  background:black;
+  color: white;
+}
+.fa-linkedin {
+  background:black;
+    color: white;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top:-5% ;
+}
+
+.flex-1 {
+ 
+  flex: 25%;
+}
+
+.flex-2 {
+  
+  flex: 25%;
+}
+.flex-3 {
+  
+  flex: 25%;
+}
+.flex-4 {
+  flex: 25%;
+}
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+
+  @media(max-width: 1175px)
+  {
+    .flex-1, .flex-2,.flex-3,.flex-4 {
+      flex: 50%;
+    }
+  }
+    @media (max-width: 576px) {
+      .flex-1, .flex-2,.flex-3,.flex-4 {
+        flex: 100%;
+      }
+  }
+
+#interests
+{
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin:0% 3% 5% 3%;
+  padding:1.5%;
+}
+#inter
+{
+  background-image:url("https://cdn.wallpapersafari.com/41/0/7Hdnuc.jpg");
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+  height:100%;
+  
+}
+
+.box
+{
+  color: white;
+  border: 1px  solid rgba(255,255,255,0.1);
+  border-radius: 10px 10px;
+  background-color: rgba(0,0,0,0.6);
+  margin:5vh 5%;
+  padding: 5% ;
+  font-family: 'Merriweather', serif;
+  line-height:200%;
+  text-align:center;
+  
+}
+.box:hover
+{
+  background-color: rgba(0,0,0,0.4);
+}
+.logo
+{
+border-radius: 5px;
+height:60%;
+width:100%;
+}
+#web
+{
+  height:60%;
+  width:70%;
+border-radius:100%;
+}
